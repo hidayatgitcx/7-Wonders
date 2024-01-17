@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wonders of the World</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="bg-gradient-to-b from-[#282928] to-[#737976] h-screen w-screen flex"
+    >
+      <div
+        class="flex h-screen w-screen justify-center items-center flex-col gap-10"
+      >
+        <div
+          class="flex w-[650px] h-[300px] border-2 rounded-lg gap-6 bg-white forFade"
+        >
+          <div class="h-fit w-72 ml-4 text-xs">
+            <p id="imgText" class="forFade">
+              The Great Wall of China, an architectural marvel spanning over
+              13,000 miles, stands as a symbol of ancient ingenuity. Constructed
+              over centuries by various dynasties, notably the Ming, it served
+              as a formidable defense against invasions with watchtowers dotting
+              its rugged terrain. Beyond military purposes, it symbolizes
+              national strength and unity. Recognized as a UNESCO World Heritage
+              Site, the wall's historical significance and breathtaking vistas
+              make it a captivating testament to human achievement.
+            </p>
+          </div>
+          <div class="h-[300px] w-[578px]">
+            <img
+              class="h-[300px] w-[578px] forFade"
+              id="mainImg"
+              src="./images/wall of china.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="absolute bottom-12">
+          <div class="flex gap-4" id="imgSlide">
+            <img
+              class="h-20 w-20 rounded-[50%] imgSlide"
+              data-text="The Great Wall of China, an architectural marvel spanning over
+            13,000 miles, stands as a symbol of ancient ingenuity. Constructed
+            over centuries by various dynasties, notably the Ming, it served
+            as a formidable defense against invasions with watchtowers dotting
+            its rugged terrain. Beyond military purposes, it symbolizes
+            national strength and unity. Recognized as a UNESCO World Heritage
+            Site, the wall's historical significance and breathtaking vistas
+            make it a captivating testament to human achievement."
+              id="china"
+              src="./images/wall of china.jpg"
+              alt=""
+            />
+            <img
+              class="h-20 w-20 rounded-[50%] imgSlide"
+              data-text="Petra, a UNESCO World Heritage Site in Jordan, is a mesmerizing
+            ancient city carved into rose-red cliffs over 2,000 years ago.
+            Renowned for its intricate rock-cut architecture, the city was the
+            capital of the Nabataean Kingdom. The iconic Al-Khazneh, a massive
+            temple facade, is a highlight, revealing the city's rich history
+            as a crucial trade hub along the Silk Road. Petra's archaeological
+            wonders and its unique blend of natural beauty and human
+            craftsmanship make it a captivating destination."
+              id="petra"
+              src="./images/petra.jpg"
+              alt=""
+            />
+            <img
+              class="h-20 w-20 rounded-[50%] imgSlide"
+              data-text="Machu Picchu, nestled high in the Andes Mountains of Peru, is an
+            extraordinary Incan citadel shrouded in mist and mystery. Built in
+            the 15th century and later abandoned, it was rediscovered in 1911.
+            This UNESCO World Heritage Site showcases remarkable stone
+            structures, terraced fields, and ceremonial spaces. The city's
+            breathtaking location, perched atop steep cliffs, offers panoramic
+            views of the surrounding mountains. As a testament to ancient Incan
+            engineering and architecture, Machu Picchu stands as a symbol of the
+            rich cultural heritage of the Andean civilization."
+              id="machu"
+              src="./images/Machu Picchu.jpg"
+              alt=""
+            />
+            <img
+              class="h-20 w-20 rounded-[50%] imgSlide"
+              data-text="Chichén Itzá, on the Yucatán Peninsula, is a UNESCO-listed
+            archaeological site showcasing ancient Maya culture. Dominated by
+            the iconic Pyramid of Kukulcan, it boasts a ball court, observatory,
+            and Temple of the Warriors, exemplifying advanced Maya architecture
+            and mathematics. Renowned for its historical importance, Chichén
+            Itzá stands as a testament to the sophistication of pre-Columbian
+            Mesoamerican civilizations."
+              id="aztec"
+              src="./images/aztec.jpg"
+              alt=""
+            />
+            <img
+              class="h-20 w-20 rounded-[50%] imgSlide"
+              data-text="The Roman Colosseum, an iconic amphitheater in Rome, built in the
+            1st century AD, hosted gladiatorial contests and public spectacles
+            for up to 80,000 spectators. This masterpiece of Roman engineering
+            stands as a testament to both architectural grandeur and the
+            cultural significance of ancient entertainment, remaining a globally
+            recognized symbol of Rome's historical legacy."
+              id="colosseum"
+              src="./images/colosseum.jpg"
+              alt=""
+            />
+            <img
+              class="h-20 w-20 rounded-[50%] imgSlide"
+              data-text="The Taj Mahal, a UNESCO World Heritage Site in Agra, India, is an
+            enduring symbol of love and architectural magnificence. Built in the
+            17th century by Emperor Shah Jahan in memory of his beloved wife
+            Mumtaz Mahal, the ivory-white marble mausoleum is a masterpiece of
+            Mughal architecture. Its symmetrical design, intricate marble
+            inlays, and iconic dome create a breathtakingly harmonious
+            aesthetic. Set against the Yamuna River, the Taj Mahal is not only a
+            testament to eternal love but also a cultural jewel that attracts
+            millions of visitors from around the world."
+              id="mahal"
+              src="./images/taj mahal.jpg"
+              alt=""
+            />
+            <img
+              class="h-20 w-20 rounded-[50%] imgSlide"
+              data-text="The Pyramid of Giza, a marvel of ancient Egypt, is one of the Seven
+            Wonders of the World. Built over 4,500 years ago for Pharaoh Khufu,
+            it stands as the largest of the three pyramids on the Giza Plateau.
+            Constructed with precision and engineering brilliance, the pyramid's
+            original purpose remains a subject of fascination and debate. Its
+            iconic limestone and granite structure, originally clad in smooth
+            Tura limestone, continues to captivate with its enduring mystique
+            and historical significance."
+              id="pyramid"
+              src="./images/giza pyramid.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

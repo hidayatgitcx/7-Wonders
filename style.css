@@ -1,0 +1,6 @@
+.selected{
+    border: 2px;
+    border-style: solid;
+    border-color: lime;
+    transform: scale(1.2);
+}
